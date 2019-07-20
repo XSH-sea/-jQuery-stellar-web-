@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.tim_nav {
+    height: 150px;
+    width: 100%;
+    background: url("../images/nav_bg.png") repeat-x;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.tim_nav .wrapper {
+    width: 1080px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.tim_nav .wrapper .logo {
+    height: 75px;
+    width: 100px;
+    background: url("../images/nav_brand.png") no-repeat center;
+    float: left;
+}
+
+.tim_nav .wrapper .nav {
+    float: left;
+}
+
+.tim_nav .wrapper .nav li {
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 75px;
+}
+
+.tim_nav .wrapper .nav li a {
+    display: block;
+    padding: 0 20px;
+}
+
+.tim_nav .wrapper .nav li a.active,
+.tim_nav .wrapper .nav li a:hover {
+    background-color: #12b7f5;
+}
+
+.tim_nav .wrapper .register {
+    width: 96px;
+    height: 36px;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    background-color: #12b7f5;
+    line-height: 36px;
+    margin-top: 20px;
+    border-radius: 18px;
+
+}
+
+.tim_nav .wrapper .other {
+    float: right;
+    width: 250px;
+    height: 75px;
+}
+
+.tim_nav .wrapper .other ul {
+    width: 250px;
+}
+
+.tim_nav .wrapper .other ul li {
+    float: right;
+    margin-left: 40px;
+}
+
+.tim_nav .wrapper .other ul li a {
+    font-size: 14px;
+    text-shadow: 0 0 2px #333;
+    height: 50px;
+    line-height: 50px;
+}
+
+.tim_nav .wrapper .other p {
+    float: right;
+}
+
+.tim_banner {
+    height: 960px;
+    background: url("../images/banner-bg.jpg") no-repeat center top;
+    padding-top: 150px;
+}
+
+.tim_banner img {
+    display: block;
+    margin: 20px auto 0;
+}
+
+.tim_banner img:last-child {
+    width: 100%;
+}
+
+.tim_sound {
+    padding-top: 20px;
+}
+
+.tim_sound h1 {
+    height: 300px;
+    background: url("../images/sound-text.png") no-repeat center/cover;
+    font-size: 0;
+    width: 100%;
+}
+
+.tim_sound .bg {
+    height: 500px;
+    background: url("../images/sound-bg.jpg") no-repeat center/cover;
+}
+
+.tim_sound .content {
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tim_sound .content .phone {
+    position: absolute;
+    left: 0;
+    top: -200px;
+    height: 700px;
+    width: 700px;
+    background: url("../images/sound-phone.png") no-repeat top/cover;
+}
+
+.tim_sound .content h2 {
+    padding-top: 100px;
+    float: right;
+    width: 500px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.tim_sound .content p {
+    float: right;
+    width: 500px;
+    text-align: right;
+    padding-top: 50px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+}
+
+.tim_file {
+
+}
+
+.tim_file .bg {
+    height: 500px;
+    background: url("../images/file-bg.jpg") no-repeat center/cover;
+}
+
+.tim_file .content {
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.tim_file .content .computer {
+    float: right;
+    height: 340px;
+    width: 600px;
+    background: url("../images/file-mac.png") no-repeat top/cover;
+    margin-top: 100px;
+}
+
+.tim_file .content h2 {
+    padding-top: 100px;
+    float: left;
+    width: 380px;
+    text-align: left;
+    font-size: 40px;
+}
+
+.tim_file .content p {
+    float: left;
+    width: 380px;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+}
+
+.tim_interest {
+
+}
+
+.tim_interest .bg {
+    height: 500px;
+    background: url("../images/interest-bg.jpg") no-repeat center/cover;
+}
+
+.tim_interest .content {
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tim_interest .content .phone {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 500px;
+    width: 350px;
+    background: url("../images/interest-phone.png") no-repeat top/cover;
+}
+
+.tim_interest .content h2 {
+    padding-top: 100px;
+    float: right;
+    width: 500px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.tim_interest .content p {
+    float: right;
+    width: 500px;
+    text-align: right;
+    padding-top: 50px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+}
+
+.tim_footer {
+    height: 250px;
+    background: #2a2a2a;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 50px;
+    color: #666;
+}
+
+.plats {
+    width: 800px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.plats a {
+    float: left;
+    background: transparent url(../images/footer.png) no-repeat 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    padding-top: 50px;
+    width: 80px;
+    margin: 0 60px;
+}
+
+.plats a:hover {
+    color: #12b7f5;
+}
+
+.plats a.plmb {
+    background-position: 0 0;
+}
+
+.plats a.plmb:hover {
+    background-position: 0 -93px;
+}
+
+.plats a.plpc {
+    background-position: -105px 0;
+}
+
+.plats a.plpc:hover {
+    background-position: -105px -93px;
+}
+
+.plats a.plmac {
+    background-position: -210px 0;
+}
+
+.plats a.plmac:hover {
+    background-position: -210px -93px;
+}
+
+.plats a.plpad {
+    background-position: -326px 0;
+}
+
+.plats a.plpad:hover {
+    background-position: -326px -93px;
+}
+
+
